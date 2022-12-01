@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/casino.png" type="image/png" />
+    <script src="https://kit.fontawesome.com/4aabdaac02.js" crossorigin="anonymous"></script>
+    <title>Casino</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <%-include ("templates/nav"); %>
+        <div class="main">
+            <div class="present">
+                <div class="h1-main">
+                    <h1 class="container-h1">Bienvenido a la máquinas tragamonedas</h1>
+                </div>
+            </div>
+            <div class="boton-flotante">
+                <a href="./jugar" class="btn-flotante">Jugar</a><i class="fa-sharp fa-solid fa-arrow-right"></i>
+            </div>
+
+            <div class="main-boton-flo">
+                <div class="boton-flotante-below">
+                    <a href="#funciona" class="btn-flotante">Como jugar?<div class="arrows">
+                            <i class="fa-sharp fa-solid fa-arrow-down"></i>
+                        </div></a>
+                </div>
+            </div>
+        </div>
+        <div class="whatis">
+            <div class="descripcion">
+                <div class="descripcion-sub">
+                <div class="funcionamiento" id="funciona">
+                    <h2>Como funciona?</h2>
+                </div>
+                <div class="p">
+                <p class="lucky-p">
+                    Para este juego necesitas de mucha suerte!
+                </p>
+                <p class="simbol-p">
+                    Habran varios simbolos donde tiene un valor cada una, si
+                    en algunos de los tres campos aciertas con el mismo simbolo Ganas,
+                    de lo contrario pierdes.
+                </p>
+                </div>           
+                </div>
+            </div>
+        </div>
+
+        <%-include ('templates/footer'); %>
+</body>
+
+</html>
